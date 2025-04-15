@@ -1,6 +1,6 @@
 # 🌐 Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images (CVPR 2025)
 
-![DOI: 123445555](https://img.shields.io/badge/DOI-123445555-blue) ![DOI: 123445555](https://img.shields.io/badge/DOI-123445555-blue)
+![http://arxiv.org/abs/2504.09621](https://img.shields.io/badge/arxiv-2504.09621-blue)
 
 This repository is an official implementation of the paper "*Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images*". Our main contribution is the proposal of DehazeXL,  an end-to-end haze removal framework designed for large-sized images.
 
@@ -147,7 +147,7 @@ DAM is a visual attribution method tailored for haze removal tasks. It helps to 
 If you find our code useful, please consider citing our paper:
 
 ```
-@inproceedings{chen2025TTT,
+@inproceedings{chen2025token,
   title={Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images},
   author={Jiuchen Chen, Xinyu Yan, Qizhi Xu, and Kaiqi Li},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
