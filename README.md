@@ -21,7 +21,7 @@ conda create -n DehazeXL python=3.10
 conda activate DehazeXL
 
 # Install Pytorch
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 # Install other packages needed
 pip install -r requirements.txt
