@@ -1,6 +1,6 @@
 # 🌐 Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images (CVPR 2025)
 
-![http://arxiv.org/abs/2504.09621](https://img.shields.io/badge/arxiv-2504.09621-blue)
+Paper Link: https://arxiv.org/abs/2504.09621
 
 This repository is an official implementation of the paper "*Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images*". Our main contribution is the proposal of DehazeXL,  an end-to-end haze removal framework designed for large-sized images.
 
