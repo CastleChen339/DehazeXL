@@ -68,8 +68,8 @@ Both the mini and full datasets share the same directory structure, which is org
 
 You can obtain the `8KDehaze` dataset from the following sources:
 
-- **Huggingface**: [8KDehaze Mini Version](https://huggingface.co/datasets/fengyanzi/8KDehaze_mini/tree/main)
-- **Baidu Pan**: [8KDehaze Full Version]( https://pan.baidu.com/s/1-z7h-BLV7BxNg4Qp6Hi5uQ?pwd=4321) (Password: `4321`)
+- **Mini Version**: [Modelscope](https://www.modelscope.cn/datasets/fengyanzi/8kdehaze_mini/) [Hugging Face](https://huggingface.co/datasets/fengyanzi/8KDehaze_mini)  [BaiduCloud](https://pan.baidu.com/s/1ZVipOYnTR-M_xG5FZNtZPQ?pwd=4321)  [AliCloud](https://www.alipan.com/s/7AVat72s4Sk)
+- **Full Version**: [Baidu Pan](https://pan.baidu.com/s/1-z7h-BLV7BxNg4Qp6Hi5uQ?pwd=4321) (Password: `4321`)
 
 > To load the dataset, please refer to the `dataset.py`. Ensure that you adjust the file paths and parameters according to the version of the dataset you are using.
 
