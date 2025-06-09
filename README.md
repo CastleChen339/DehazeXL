@@ -140,7 +140,7 @@ python test.py --test_img ./datasets/your_test_image.png --model_path ./checkpoi
 
 DAM is a visual attribution method tailored for haze removal tasks. It helps to evaluate the efficiency of global context utilization in haze removal performance. For more details about DAM, please visit [Dehazing Attribution Map](https://github.com/fengyanzi/DehazingAttributionMap).
 
-
+![dam](./assets/dam.png)
 
 ## 📖 Citation
 
