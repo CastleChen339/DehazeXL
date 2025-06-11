@@ -1,6 +1,9 @@
 # 🌐 Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images (CVPR 2025)
 
-Paper Link: https://arxiv.org/abs/2504.09621
+Paper Link: [CVF OpenAccess]( https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Tokenize_Image_Patches_Global_Context_Fusion_for_Effective_Haze_Removal_CVPR_2025_paper.html)
+
+Arxiv: https://arxiv.org/abs/2504.09621
+
 
 This repository is an official implementation of the paper "*Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images*". Our main contribution is the proposal of DehazeXL,  an end-to-end haze removal framework designed for large-sized images.
 
