@@ -147,11 +147,13 @@ DAM is a visual attribution method tailored for haze removal tasks. It helps to 
 If you find our code useful, please consider citing our paper:
 
 ```
-@inproceedings{chen2025token,
-  title={Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images},
-  author={Jiuchen Chen, Xinyu Yan, Qizhi Xu, and Kaiqi Li},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2025}
+@InProceedings{Chen_2025_CVPR,
+    author    = {Chen, Jiuchen and Yan, Xinyu and Xu, Qizhi and Li, Kaiqi},
+    title     = {Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {2258-2268}
 }
 ```
 
