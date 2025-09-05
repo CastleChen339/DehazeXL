@@ -89,9 +89,12 @@ def evaluate(model, test_dataloader, criterion, device):
 
 def main(args):
     total_dataset = CloudRemovalDataset(os.path.join(args.data_dir), args.nor, crop_size=2048)
+
+    generator = torch.Generator().manual_seed(22)
     train_set, test_set = random_split(total_dataset,
                                        [int(len(total_dataset) * 0.85),
-                                        len(total_dataset) - int(len(total_dataset) * 0.85)])
+                                        len(total_dataset) - int(len(total_dataset) * 0.85)],
+                                      generator=generator)
     train_loader = DataLoader(train_set, batch_size=args.batch_size,
                               shuffle=True, num_workers=8, pin_memory=True, drop_last=True)
     test_loader = DataLoader(test_set, batch_size=args.batch_size * 2,
@@ -130,3 +133,4 @@ if __name__ == '__main__':
     parser.add_argument('--nor', action='store_true',
                         help='Normalize the image')
     main(parser.parse_args())
+
