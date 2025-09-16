@@ -1,7 +1,8 @@
 # 🌐 Tokenize Image Patches: Global Context Fusion for Effective Haze Removal in Large Images (CVPR 2025)
 
+Code：[https://github.com/CastleChen339/DehazeXL](https://github.com/CastleChen339/DehazeXL)
 
-Project Page: [DehazeXL](https://castlechen339.github.io/DehazeXL.github.io/)
+Project Page: [https://castlechen339.github.io/DehazeXL.github.io/](https://castlechen339.github.io/DehazeXL.github.io/)
 
 Paper Link: [CVPR2025 OpenAccess]( https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Tokenize_Image_Patches_Global_Context_Fusion_for_Effective_Haze_Removal_CVPR_2025_paper.html)
 
