@@ -78,8 +78,8 @@ def main(args):
                 out = model(input_tensor)
                 if args.nor:
                     out = unnormalize(out,
-                                      [0.48694769, 0.53490934, 0.45040282],
-                                      [0.16451647, 0.15308164, 0.15011494])
+                                      [0.45837133, 0.47633536, 0.44432645],
+                                      [0.16936361, 0.15927625, 0.15468806])
                 res = transforms.ToPILImage()(out.clamp(0, 1).squeeze(0))
             print("Saving result...")
             res.save(os.path.join(save_dir, f'{os.path.basename(m)}_{os.path.basename(path)}'))
