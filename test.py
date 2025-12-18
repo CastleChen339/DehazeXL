@@ -67,8 +67,8 @@ def main(args):
                 transforms.ToTensor()
             ]
             if args.nor:
-                transforms_list.append(transforms.Normalize([0.48694769, 0.53490934, 0.45040282],
-                                                            [0.16451647, 0.15308164, 0.15011494]))
+                transforms_list.append(transforms.Normalize([0.45837133, 0.47633536, 0.44432645],
+                                                            [0.16936361, 0.15927625, 0.15468806]))
             transform = transforms.Compose(transforms_list)
             print("Cloud removing...")
             with torch.no_grad():
